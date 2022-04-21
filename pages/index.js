@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
 
         <div className="grid">
-          <a href="" className="card">
+          <a href="/users/detail" className="card">
             <h3>Member &rarr;</h3>
             <p>Cek member golden crows disini, cakep cakep dan imut imut.</p>
           </a>
@@ -45,14 +45,8 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
+      
+          <p>Make with love by Alfa</p>
       </footer>
 
       <style jsx>{`
@@ -99,7 +93,7 @@ export default function Home() {
         }
 
         .title a {
-          color: #0070f3;
+          color: #FFD700;
           text-decoration: none;
         }
 
