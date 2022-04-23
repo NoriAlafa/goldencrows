@@ -1,0 +1,10 @@
+.title-homepage{
+    color: rgb(251, 255, 0);
+    
+}
+.judul{
+    text-align: center;
+}
+.card:hover{
+    color:red;
+}

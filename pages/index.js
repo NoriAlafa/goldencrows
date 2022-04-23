@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 
+
 export default function Home() {
   return (
     <div className="container">
@@ -11,18 +12,14 @@ export default function Home() {
 
       <main>
         <Header />
-        <h1 className="title">
-          Welcome to <a href="">Golden Crows</a>
+        <h1 className='judul'>
+          Welcome to <a className='title-homepage' >Golden Crows</a>
         </h1>
 
 
       </main>
 
-      <footer>
       
-          <p>Make with love by Alfa</p>
-      </footer>
-    
     </div>
 
     

@@ -2,30 +2,36 @@ import Link from 'next/link'
 
 export default function Header(){
     return(
-        <><header>
-            <ul>
+        <><header >
+            <ul className='container'>
                 <li>
-                    <Link href="/users/detail" className="card">
-                        <a>Member </a>
+                    <Link href="/">
+                        <a className="card">HOME</a>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/users/detail" >
+                        <a className="card">Member </a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="/blog" className="card">
-                        <a>
+                    <Link href="/blog">
+                        <a className="card">
                             Learn
                         </a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="" className="card">
-                        <a>
+                    <Link href="" >
+                        <a className="card">
                             Examples
                         </a>
                     </Link>
                 </li>
                 <li>
                     <Link href="" className="card">
-                        <a>
+                        <a className="card">
                             Gallery
                         </a>
                     </Link>
@@ -37,7 +43,11 @@ export default function Header(){
           margin:20px;
         }
 
+        .container{
+            padding:8px;
+            box-shadow:3px 3px 11px 3px rgb(0 0 0/32%);
 
+        }
 
         ul{
           display:flex;
@@ -46,6 +56,8 @@ export default function Header(){
 
         a{
           text-decoration: none;
+          color:black;
+          margin:80px;
         }
         `}</style></>
     )
