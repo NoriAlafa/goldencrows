@@ -1,26 +1,26 @@
 import Head from 'next/head'
 import Header from '../components/Header'
-
+import Layout from '../components/layout'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Golden Crows</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Layout>
+        <Head>
+          <title>Golden Crows</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      <main>
-        <Header />
-        <h1 className='judul'>
-          Welcome to <a className='title-homepage' >Golden Crows</a>
-        </h1>
+        <main>
+          <h1 className='judul'>
+            Welcome to <a className='title-homepage' >Golden Crows</a>
+          </h1>
 
 
-      </main>
+        </main>
+      </Layout>
 
       
-    </div>
+   
 
     
   )

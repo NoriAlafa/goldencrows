@@ -1,7 +1,11 @@
+import Layout from "../../components/layout";
+
 export default function userDetail(){
     return(
-        <div>
-            <p>Detail Member</p>
-        </div>
+        <Layout>
+            <div>
+                <p>Detail Member</p>
+            </div>
+        </Layout>
     )
 }

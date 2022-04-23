@@ -8,3 +8,15 @@
 .card:hover{
     color:red;
 }
+
+.footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.cinta{
+    color: rgb(219, 128, 143);
+    text-transform: uppercase;
+}
