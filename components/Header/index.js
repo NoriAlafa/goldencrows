@@ -11,7 +11,7 @@ export default function Header(){
                 </li>
 
                 <li>
-                    <Link href="/users/detail" >
+                    <Link href="/users" >
                         <a className="card">Member </a>
                     </Link>
                 </li>
