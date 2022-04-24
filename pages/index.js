@@ -4,12 +4,8 @@ import Layout from '../components/layout'
 
 export default function Home() {
   return (
-      <Layout>
-        <Head>
-          <title>Golden Crows</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-
+      <Layout pageTitle="Home Page">
+        
         <main>
           <h1 className='judul'>
             Welcome to <a className='title-homepage' >Golden Crows</a>
@@ -18,10 +14,5 @@ export default function Home() {
 
         </main>
       </Layout>
-
-      
-   
-
-    
   )
 }
