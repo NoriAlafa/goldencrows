@@ -8,7 +8,9 @@ export default function Home() {
           <h1 className='judul'>
             Welcome to <a className='title-homepage' >Golden Crows</a>
           </h1>
-          <Image className="homepage-img" src="/icon.png" width={200} height={200} alt="icon"/>
+          <div className='homepage-img'>
+            <Image  src="/icon.png" width={200} height={200} alt="icon"/>
+          </div>
         </main>
       </Layout>
   )
