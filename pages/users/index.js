@@ -1,6 +1,8 @@
 import Layout from "../../components/layout";
+import { useRouter } from "next/router";
 
 export default function Users(props){
+    const router = useRouter()
     const {dataUsers} = props
     console.log(dataUsers)
     return(
@@ -9,16 +11,10 @@ export default function Users(props){
                 <p>Detail Member</p>
                 {dataUsers.map(user=>{
                     return(
-                        <>
-                            <table border="1">
-                                <tr>
-                                    <th>{user.name}</th>
-                                </tr>
-                                <tr>
-                                    <td>{user.email}</td>
-                                </tr>
-                            </table>
-                        </>
+                        <div className="card-user" key={user.id} onClick={()=>router.push(`/users/${user.id}`)}>
+                            <p>{user.name}</p>
+                            <p>{user.email}</p>
+                        </div>
                     )
                 })}
             </div>

@@ -1,0 +1,9 @@
+.card-user{
+    padding:16px;
+    box-shadow: 6px 3px 13px 1px;
+    width:500px;
+    border-radius: 12px;
+    margin: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
