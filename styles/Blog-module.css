@@ -1,0 +1,8 @@
+.card-blog{
+    padding:16px;
+    box-shadow: 6px 3px 13px 1px;
+    border-radius: 12px;
+    margin: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
